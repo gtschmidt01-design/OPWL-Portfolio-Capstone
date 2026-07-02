@@ -520,7 +520,7 @@
           <div class="goal-item">
             <p class="goal-text">Align performance improvement solutions with strategic organizational goals and make recommendations to produce results valued by organizations.</p>
             <div class="chip-row">
-              <span class="chip" onclick="go('eval','eval-conclusions')">Evaluation — Conclusions &amp; Recommendations</span>
+              <span class="chip" onclick="go('eval','eval-conclusions')">Evaluation — Results</span>
               <span class="chip" onclick="go('id','id-decisions')">Instructional Design — Decisions &amp; Mindset</span>
               <span class="chip" onclick="go('id','id-resources')">Instructional Design — Created Resources</span>
             </div>
@@ -563,7 +563,7 @@
           <button onclick="scrollToId('eval-background')">Background</button>
           <button onclick="scrollToId('eval-methods')">Methods</button>
           <button onclick="scrollToId('eval-data')">Data Collection</button>
-          <button onclick="scrollToId('eval-conclusions')">Conclusions</button>
+          <button onclick="scrollToId('eval-conclusions')">Results</button>
           <button onclick="scrollToId('eval-reflections')">Reflections</button>
           <button onclick="scrollToId('eval-report')">Final Report</button>
           <button onclick="scrollToId('eval-refs')">References</button>
@@ -664,7 +664,7 @@
         </div>
 
         <div class="ws-block" id="eval-conclusions">
-          <h2>Conclusions</h2>
+          <h2>Results</h2>
           <h3>How We Reached Our Conclusions</h3>
           <p>Evaluative conclusions were reached by applying a performance rubric to each dimension, drawing on all four data sources. Survey items were analyzed quantitatively — frequency distributions and descriptive statistics were used to identify patterns across respondents — and open-ended responses were coded thematically. Policy and extant records were reviewed against documented NREMT and USCG EMS standards and scored against pre-established performance indicators. Each dimension was then assigned an evaluative rating (Exemplary, Good, Mediocre, or Poor) based on the degree to which the collected evidence met the performance standards set in Step 5 of Chyung's framework. Importance weights set by the client guided how much each dimension influenced the overall program judgment.</p>
 
@@ -699,10 +699,18 @@
               <p style="font-size:14px; margin-bottom:0;">The team analyzed survey results for readiness and retention items and reviewed open-ended comments on the strengths and weaknesses of the current model. Findings point to a structural gap rather than a process gap — even where the program executes correctly, it may not be sufficient to maintain operational readiness.</p>
             </div>
           </div>
+
           <div class="apa-table">
             <div class="apa-label">Table 3</div>
-            <div class="apa-title">Recommendations to FORCECOM and TRACEN Petaluma Leadership</div>
-            <p class="apa-note"><em>Note.</em> Based on the dimensional findings above, the team produced a full set of recommendations. The complete list is presented in Table 3 of the final report linked below.</p>
+            <div class="apa-title">Prioritized Recommendations to FORCECOM and TRACEN Petaluma Leadership</div>
+            <table>
+              <tr><th>Priority</th><th>Recommendation</th><th>Why It Matters</th><th>Primary Dimension</th></tr>
+              <tr><td>1</td><td>Establish a formal verifier designation and preparation process</td><td>Creates a clear standard for who may verify skills and how they are calibrated, reducing inconsistency and credibility risk</td><td>Dimension 1</td></tr>
+              <tr><td>2</td><td>Standardize skills verification procedures and forms across units</td><td>Reduces variation in documentation, process execution, and interpretation of requirements</td><td>Dimension 1</td></tr>
+              <tr><td>3</td><td>Provide structured hands-on recertification opportunities through resident, exportable, or hybrid delivery</td><td>Addresses the strongest readiness gap identified in the data and supports skill retention over time</td><td>Dimension 2</td></tr>
+              <tr><td>4</td><td>Publish clearer job aids and communication for members, supervisors, and verifiers</td><td>Reduces confusion, improves process access, and supports smoother implementation</td><td>Dimensions 1 &amp; 2</td></tr>
+              <tr><td>5</td><td>Implement ongoing quality assurance tracking for documentation issues, remediation trends, and field feedback</td><td>Creates a feedback loop so leadership can monitor improvement and detect recurring problems early</td><td>Dimensions 1 &amp; 2</td></tr>
+            </table>
           </div>
         </div>
 
@@ -743,6 +751,7 @@
         <div class="subnav">
           <button class="home-btn" onclick="go('overview')" style="font-size:11px; padding:6px 11px; gap:5px;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width:11px;height:11px;"><path d="M3 12L12 3l9 9"/><path d="M9 21V12h6v9"/></svg>HOME</button>
           <button onclick="scrollToId('id-challenge')">Challenge</button>
+          <button onclick="scrollToId('id-goals')">Goals</button>
           <button onclick="scrollToId('id-approach')">Approach</button>
           <button onclick="scrollToId('id-decisions')">Decisions &amp; Mindset</button>
           <button onclick="scrollToId('id-solutions')">Solutions</button>
@@ -761,6 +770,19 @@
 
           <h3 id="id-request">Design Request</h3>
           <p>In fulfilling the Joint Commission requirement for emergency drills, debriefs are also required following each drill. The central stakeholders — IYR's Health and Safety Officer and on-site program managers — identified the need for a more structured, consistent, and impactful debrief process. Though debriefs were expected, the debrief structure was not standardized, leading to a missed opportunity for strengthening IYR's response readiness. Program managers lacked guidance on what a debrief should include, how it should be facilitated, who should lead it, and how outcomes should be documented. As a result, each site approached debriefs differently, limiting the organization's ability to learn systematically from drills and real incidents — a missed opportunity both for ensuring learning in high-stress environments and for capturing valuable lessons learned.</p>
+        </div>
+
+        <!-- GOALS -->
+        <div class="ws-block" id="id-goals">
+          <h2>Goals</h2>
+          <p>The primary goal of this project was to design a practical, field-ready toolkit that would equip IYR program managers to facilitate consistent, high-quality emergency drill debriefs across all three residential sites. Specifically, the project aimed to:</p>
+          <ul>
+            <li><strong>Standardize the debrief process</strong> — provide a shared structure that all sites could follow, reducing the current variability in how debriefs were conducted and documented.</li>
+            <li><strong>Build facilitator capacity</strong> — create a resource that supported managers at every experience level, from those with no prior debrief experience to those already using informal approaches, without requiring significant preparation time.</li>
+            <li><strong>Improve learning from drills</strong> — shift debriefs from a compliance checkbox into a genuine learning opportunity that captures lessons learned and informs future emergency preparedness.</li>
+            <li><strong>Support Joint Commission documentation requirements</strong> — ensure that the process and its outputs aligned with IYR's accreditation obligations, reducing risk and supporting organizational accountability.</li>
+            <li><strong>Design for real-world constraints</strong> — produce a tool that was immediately usable in high-stress, time-limited environments without requiring extensive training or setup.</li>
+          </ul>
         </div>
 
         <!-- APPROACH -->
